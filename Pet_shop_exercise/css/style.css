@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Felipa|Lobster');
+
+body {
+  background-color: #66ff66;
+  color: #990000;
+  font-family: "Lobster",sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight:normal;
+  font-size: 40px;
+  border-style: dashed;
+}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight:normal;
+  font-size: 20px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a
+{
+  text-decoration: underline;
+}
+
+li {
+  background-color: white;
+     padding: 30px;
+     font-size: 30px;
+     width: 15%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+   }
+li:hover{
+  opacity: 0.5;
+}
+
+    /* width: 300px;
+  height:300px;
+  background-color:white;
+  border-radius: 12px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+ text-align: center;
+ display: inline-block;
+ vertical-align: top; */
+
+
+.fish {
+  color:orange;
+  text-decoration: underline;
+  padding:30px;
+  margin-top: 40px;
+
+}
+.mammals {
+  color:red;
+  font-weight:bold;
+  padding: 0px 30px;
+}
+
+.birds {
+  color:blue;
+  font-style: italic;
+  margin-top: 30px;
+  padding-botton: 40px;
+}
+#firstList{
+  background-color: blue;
+}
